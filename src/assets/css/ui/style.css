@@ -1,4 +1,11 @@
 @charset "utf-8";
+body {overflow:hidden;}
+
 .ph100 {height:100% !important;}
 .container {height:100%; padding:46px 0 0 200px;}
 .wrapper {overflow:hidden; width:100%; min-width:1600px; height:100%; background:#f3f3f3;}
+
+header.vue{position:fixed; top:0; width:200px; height:100%; background:#24262b url(../../logo.png) no-repeat 18px calc(100% - 13px); z-index:22;}
+.logo{background: url(../../logo.png) 18px 50% no-repeat; text-indent: -9999px;}
+header nav.gnb {height:calc(100% - 46px);}
+.gnb-menu {display:-webkit-box; display:-ms-flexbox; display:flex; -ms-flex-direction:column; -webkit-box-orient:vertical; -webkit-box-direction:normal; flex-direction:column; height:calc(100% - 80px);}

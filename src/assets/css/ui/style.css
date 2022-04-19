@@ -6,6 +6,13 @@ body {overflow:hidden;}
 .wrapper {overflow:hidden; width:100%; min-width:1600px; height:100%; background:#f3f3f3;}
 
 header.vue{position:fixed; top:0; width:200px; height:100%; background:#24262b url(../../logo.png) no-repeat 18px calc(100% - 13px); z-index:22;}
-.logo{background: url(../../logo.png) 18px 50% no-repeat; text-indent: -9999px;}
+.logo{background: url(../../logo.png) 58px 50% no-repeat; background-size: 75px; height:60px}
 header nav.gnb {height:calc(100% - 46px);}
 .gnb-menu {display:-webkit-box; display:-ms-flexbox; display:flex; -ms-flex-direction:column; -webkit-box-orient:vertical; -webkit-box-direction:normal; flex-direction:column; height:calc(100% - 80px);}
+
+.gnb-menu > li a {font-weight:700; color:#a3a3a3; text-decoration:none; font-size: 36px;}
+.gnb-menu > li {margin-bottom: 5px;}
+
+
+
+.fixed-top-cont {display:-webkit-box; display:-ms-flexbox; display:flex; -webkit-box-align:center; -ms-flex-align:center; align-items:center; position:fixed; top:0; left:0; right:0; width:100%; min-width:1400px; height:46px; padding-left:200px; background:#485ab7; -webkit-box-shadow:0 1px 5px 0 rgba(0,0,0,.3); box-shadow:0 1px 5px 0 rgba(0,0,0,.3); z-index:20;}

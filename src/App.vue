@@ -9,7 +9,7 @@
         <header-component></header-component>
 
         <!-- Content -->
-        <h1>content</h1>
+        <content-component></content-component>
       </div>
     </div>
 
@@ -21,6 +21,7 @@
 import { defineComponent } from 'vue'
 import headerComponent from './components/header/header-component.vue'
 import gnbComponent from './components/menu/gnb-component.vue'
+import contentComponent from './components/content/content-component.vue'
 
 import './assets/css/ui/style.css'
 
@@ -32,7 +33,8 @@ export default defineComponent({
   name: 'App',
   components: {
     'header-component': headerComponent,
-    'gnb-component': gnbComponent
+    'gnb-component': gnbComponent,
+    'content-component': contentComponent
   },
   data (): DataType {
     return {

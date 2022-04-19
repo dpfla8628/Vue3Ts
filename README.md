@@ -1,5 +1,5 @@
 # vue3ts
-
+vu3 + ts + webpack5
 ## Project setup
 ```
 yarn install

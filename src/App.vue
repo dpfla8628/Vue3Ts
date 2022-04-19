@@ -9,6 +9,7 @@
         <header-component></header-component>
 
         <!-- Content -->
+        {{message}}
         <content-component></content-component>
       </div>
     </div>
@@ -42,11 +43,15 @@ export default defineComponent({
     }
   },
   created () {
+    this.test('hello')
     this.initMessage()
   },
   methods: {
     initMessage (): void {
       this.message = 'World'
+    },
+    test (val: string): void {
+      console.log(val)
     }
   }
 })

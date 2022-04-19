@@ -3,7 +3,8 @@
     <a href="javascript:"><span>{{data.name}}</span></a>
   </li>
 </template>
-<script>
+
+<script lang="ts">
 
 import { defineComponent } from 'vue'
 

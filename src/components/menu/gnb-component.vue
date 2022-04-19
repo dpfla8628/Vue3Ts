@@ -12,6 +12,11 @@
 import { defineComponent } from 'vue'
 import menu from './menu-component.vue'
 
+interface menus {
+  name: string
+  // field: string
+}
+
 export default defineComponent({
   name: 'gnb-component',
   components: {
@@ -22,7 +27,7 @@ export default defineComponent({
       topMenus: [
         { name: 'menu1' },
         { name: 'menu2' }
-      ]
+      ] as Array<menus>
     }
   },
   methods: {
